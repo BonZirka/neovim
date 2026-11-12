@@ -2810,6 +2810,7 @@ local pattern = {
     ['%.blade%.php$'] = 'blade',
     ['^bzr_log%.'] = 'bzr',
     ['^cabal%.project%.'] = starsetf('cabalproject'),
+    ['%.cj%.macrocall$'] = 'cangjie',
     ['^sgml%.catalog'] = starsetf('catalog'),
     ['hgrc$'] = 'cfg',
     ['^[cC]hange[lL]og'] = starsetf(detect.changelog),
